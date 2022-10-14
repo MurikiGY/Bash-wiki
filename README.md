@@ -22,3 +22,11 @@ cd yay
 makepkg -si
 ```
 
+
+
+## Instalação de ferramentas Xilinx
+```
+yay -S digilent.adept.runtime digilent.adept.utilities
+yay -S xilinx-ise
+```
+
