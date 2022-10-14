@@ -27,6 +27,6 @@ makepkg -si
 ## Instalação de ferramentas Xilinx
 ```
 yay -S digilent.adept.runtime digilent.adept.utilities
-yay -S xilinx-ise
 ```
+- !!! Embora seja possível instalar o Xilinx ISE Webpack pelo Yay, é preferível não faze-lo.
 
