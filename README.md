@@ -1,6 +1,6 @@
 # Bash - Wiki
 
-# Transferencia de arquivos via ssh
+## Transferencia de arquivos via ssh
 
 - Exportar
 ```
@@ -11,3 +11,14 @@ scp <file_name> user@endereço:~/
 ```
 scp user@endereço:~/ ~/
 ```
+
+
+
+## Instalação do YAY
+```
+sudo pacman -S git go
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
